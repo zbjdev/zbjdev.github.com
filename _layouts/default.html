@@ -3,26 +3,60 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - {{ site.name }}</title>
     <meta name="viewport" content="width=device-width">
 
     <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="assets/css/syntax.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="/assets/css/typo.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
 </head>
 <body>
-    <header>
-        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-        <a class="extra" href="/">home</a>
+    <div class="wrap">
+    <header id="sitehd">
+        <div id="headbg">
+            <div id="world">
+            </div>
+        </div>
+        <script src="/assets/js/cloud.js"></script>
+        <div id="head-cont" class="grid">
+        <h1 id="logo"><a href="/">{{ site.name }}</a></h1>
+        <q id="site-description" cite="http://www.huxiu.com/article/14606/1.html">
+            技术应该完成一些繁重的工作，让人们可以做一些更快乐的事情。
+        </q>
+        </div>
+        <div class="navbar">
+            <nav class="grid">
+                <a href="/">
+                   首页
+                </a>
+                <a href="#">
+                   UED规范
+                </a>
+                <a href="#">
+                   公共组件
+                </a>
+                <a href="#">
+                   交流分享
+                </a>
+                <a href="http://www.zhubajie.com/main/biaoshi">
+                   资源下载
+                </a>
+            </nav>
+        </div>
+
+
     </header>
-    <main>
+    <main class="typo grid">
         {{ content }}
     </main>
-    <footer>
-        © zhubajie ued 2013.
+
+    </div>
+    <footer id="site-footer">
+        Copyright © 2013 - zbjdev.com - Powered by Jekyll.
     </footer>
 
 </body>
