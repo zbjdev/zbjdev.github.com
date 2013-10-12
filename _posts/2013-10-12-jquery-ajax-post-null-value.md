@@ -12,10 +12,11 @@ Date:2013-10-11
 水  17:00:34
 <p>
 兄弟伙，问一哈也。
-<p>jquery 1.8.3 ajax的时候，如果我postdata里有字段是""或null，是不是会被自动转为空
+<p>
+jquery 1.8.3 ajax的时候，如果我postdata里有字段是""或null，是不是会被自动转为空
 </blockquote>
 
-询问jQuery 1.8.3 版本的ajax方法会怎样对待postdata字段里面的“”或null字段，是否会被自动转为空，实践是检验真理的唯一标准，我们随便打开一个有jQuery的页面，在console里输入：
+询问jQuery 1.8.3 版本的ajax方法会怎样对待postdata字段里面的“”或null字段，是否会被自动转为空，实践是检验真理的唯一标准，我们随便打开一个有jQuery 1.8.3 版本的页面，在console里输入：
 
 ```js
 	$.ajax('/get/',{type:"post",data:{a:"",b:null,c:123,d:"abs"}})
