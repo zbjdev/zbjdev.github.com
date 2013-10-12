@@ -74,5 +74,5 @@ update:
 老谭提出可以使用background-size来解决这个问题，也是个不错的思路
 
 ###总结
-
+当页面CSS设置的 `min-width` 值超过 `device-width x initial-scale` 值时, `initial-scale` 将失效
 
