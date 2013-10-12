@@ -69,10 +69,12 @@ title: 移动页面默认放大的bug修复
 
 但是真正放到开发环境中去测试的时候却始终有问题，经过反复尝试，将CSS的引用地址临时指向我的开发版本就没问题，确认是移动开发同事服务器端的同步或缓存的问题。
 
-===
-update:
-老谭提出可以使用background-size来解决这个问题，也是个不错的思路
+---
+团队交流后更新:
+
+* 老谭提出可以使用background-size来解决这个问题，也是个不错的思路
+* 这种第三方登录的icon比较扁平化，使用iconfont技术也能实现自由缩放
 
 ###总结
-当页面CSS设置的 `min-width` 值超过 `device-width x initial-scale` 值时, `initial-scale` 将失效
+当页面CSS设置的 `min-width` 值超过 `device-width x initial-scale` 值时, 部分Android机型下`initial-scale` 将失效，iOS普遍正常。
 
