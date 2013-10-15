@@ -24,7 +24,7 @@ jquery 1.8.3 ajax的时候，如果我postdata里有字段是""或null，是不�
 
 然后观察Network面板即可知道答案。
 
-更进一步的做法，是深入理解jQuery的 [相应源码](http://james.padolsey.com/jquery/#v=1.8.3&fn=jQuery.param):
+更进一步的做法，是深入理解jQuery的 http://james.padolsey.com/jquery/#v=1.8.3&fn=jQuery.param :
 
 ```js
 
