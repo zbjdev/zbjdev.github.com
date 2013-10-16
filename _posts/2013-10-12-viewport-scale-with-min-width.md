@@ -2,14 +2,12 @@
 layout: post
 date: 2013-10-12 14:17:16 +0800
 title: 移动页面默认放大的bug修复
+tags : [有问友答,faq, Mobile, initial-scale, min-width]
 ---
 
-###背景
 今天早上接到无线部门求助：[移动注册页面](http://m.zhubajie.com/webApp/login-register.html)  在部分Android机型上默认会放大，需要用户手动缩小才能正常浏览，原作者时间精力有限，无暇顾及。
 
 ![bug截图](/assets/images/2013-10/20131012_142442.png "bug截图")
-
-###排查
 
 检查HTML代码发现头部有以下meta：
 

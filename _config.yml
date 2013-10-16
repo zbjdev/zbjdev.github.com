@@ -1,3 +1,5 @@
 name: 猪八戒研发团队
-# markdown: redcarpet
+markdown: redcarpet
 pygments: true
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough","with_toc_data"]
